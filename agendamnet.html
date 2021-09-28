@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agendamento</title> <!--Titulo da pag-->
+    <link rel="stylesheet" href="css/agendamento.css"> <!-- ligar a pag de agendamento com a de css-->
+
+</head>
+<body>
+        
+<div id="pool">
+        <h1 id="Titulo"> Campo de Agendamento </h1>
+        <p id="Subtitulo"> Insira abaixo suas informações. </p>
+ </div>
+        
+
+ <div id="dentrodiv">
+
+
+
+        <h1 id="h1deform" > Formulário de Agendamento </h1>
+
+
+
+ <form action=""> <!--form utilizado para fazer um formulario-->
+
+    <label for="nome">Nome:</label >   <!-- required utilizado para que o campo não deixe de ser preenchido  -->  
+    <input type="text" name="nome" id="nome" placeholder=" Digite aqui o seu nome" required>
+
+    <label for="data">Data de agendamento:</label>
+    <input type="date" name="data" id="data" required>
+
+    <label for="Horario">Horario de agendamento:</label>
+    <input type="time" name="Horario" id="Horario" required>
+
+    <label for="Telefone">Telefone:</label>
+    <input type="text" name="Fone" id="Fone" placeholder= " digite aqui seu telefone " required>   
+
+
+    <button class="botao" type="submit" onclick="">Agendar</button>  
+    <button class="botao-reset" type="reset" onsubmit="" id="botao">Limpar informações</button> 
+
+        </form>
+
+</div>
+   
+
+
+</body>
+</html>

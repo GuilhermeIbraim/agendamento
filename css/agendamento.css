@@ -1,0 +1,143 @@
+/* elementos da pag */
+
+
+
+/*predefinindo como sera o css*/
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-size: Arial;
+    color: black;
+    border: none;
+}
+
+
+#pool{
+
+background-color: #469bd2;
+}
+
+
+/*definindo css para o titulo*/
+#Titulo{
+
+    
+    text-align: center;
+    color: black;
+    font-size: 45px;
+}
+
+
+/*definindo css para subtitulo */
+#Subtitulo{
+    text-align: center;
+    margin-top: 8px;  
+    font-size: 20px;
+    font-size: Arial;
+}
+
+
+/*definindo como sera o css da divi */
+#dentrodiv{
+
+    background-color: #E6E7E8;
+    width: 400px;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 30px;
+    margin-top: 5vh;
+    font-size: Arial;
+}
+
+  /*definir qual a largura e o tamanho do formulario*/
+  form {
+    margin-top: 30px;
+    margin-bottom: 40px;
+    
+  }
+
+  #h1deform{
+
+    background-color: #484d50;
+    color:black;
+    text-align: center;
+    font-size: Arial;
+
+  }
+  
+  /*definir como o display do lable e input ficarão*/
+  label,input {
+  display: block;
+  width: 100%;
+  text-align: left;
+}
+
+/*definir font que o lable ficara */
+label {
+  font-weight: bold;
+  background-color: #696969;
+  color: rgb(0, 0, 0);
+}
+
+
+/*definir como o input ficara*/
+input {
+  padding: auto;
+  font-size: 1rem;
+  margin-bottom: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  justify-content: space-between;
+    font-weight: bold;
+    border: none;
+    height: 20px;
+    border-radius: 10px;
+    margin-top: 5px;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+
+button{
+
+    padding: auto;
+    font-weight: bold;
+    text-align:center ;
+    background-color: #484d50;
+    border-radius: 20px;
+    margin-top: 10px;
+    padding: 12px 30px;
+    cursor: pointer;
+    
+
+
+}
+
+#botao{
+    
+    padding: auto;
+    font-weight: bold;
+    text-align:center ;
+    background-color: #484d50;
+    border-radius: 20px;
+    margin-top: 10px;
+    padding: 12px 20px;
+    cursor: pointer;
+    margin-left: 25px;
+   
+
+}
+
+body{
+
+background-color: #696969;
+
+/*ou poderia utilizar o background-image: ; para colocar uma imagem e depois modificala ao meu gosto*/
+
+/* utilizando a tag background-size: cover; a imagem se ajusta a tela e após isso para mover ela podemeria utilizar o
+background-position (do eixo x ou y): ; para ajustar a img de acordo com oque eu quero */ 
+}
